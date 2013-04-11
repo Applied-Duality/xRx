@@ -11,7 +11,7 @@ namespace xRx
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var xs = Observable.Defer(delegate
             {
